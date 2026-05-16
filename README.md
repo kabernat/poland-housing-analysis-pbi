@@ -3,7 +3,6 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Ukończony-brightgreen?style=for-the-badge)
 
 > Interaktywny raport BI do analizy **9 878 ofert mieszkaniowych** z 15 największych miast Polski. Umożliwia porównanie cen rynkowych oraz precyzyjne wyszukiwanie nieruchomości według 11 kryteriów jednocześnie.
 
@@ -58,6 +57,11 @@ Raport składa się z **3 stron** zaprojektowanych w ciemnym motywie (Dark Mode 
 
 ---
 
+### Strona 1 — Wprowadzenie
+Strona tytułowa z identyfikacją wizualną projektu.
+
+---
+
 ### Strona 2 — Ogólne Dane Rynkowe
 
 Przegląd całego rynku z dynamiczną filtrowalnością po miastach. Każde kliknięcie natychmiast przelicza wszystkie KPI, mapy i wykresy.
@@ -76,7 +80,7 @@ Narzędzie dla użytkownika końcowego. Pozwala zawęzić tysiące ofert do kilk
 | :---: | :---: |
 | ![Wyszukiwarka](./screenshots/03-property-search-raw.png) | ![Filtry](./screenshots/03-property-search-filtered.png) |
 
-*Przykład: Gdańsk, 2 pokoje, apartamentowiec lub blok, z windą i balkonem, cegła, rok budowy 2004–2023 → **28 ofert**, najtańsza 581,30 tys. zł*
+*Przykład: Gdańsk, 2 pokoje, apartamentowiec, z windą i balkonem, cegła, rok budowy 2004–2023 → **28 ofert**, najtańsza 581,30 tys. zł*
 
 **11 dostępnych filtrów:**
 
@@ -170,8 +174,8 @@ Cena za m2 =
 
 **[Apartment Prices in Poland](https://www.kaggle.com/datasets/krzysztofjamroz/apartment-prices-in-poland)** 
 
-`apartments_pl_2023_08.csv` · 18 905 rekordów · 28 kolumn · dane z sierpnia 2023 r. · 
+`apartments_pl_2023_08.csv` · 18 905 rekordów · 28 kolumn · dane z sierpnia 2023 r. 
 
 ---
 
-Projekt zrealizowany zespołowo w ramach przedmiotu **Business Intelligence** na Politechnice Gdańskiej.
+Projekt zrealizowany w ramach przedmiotu **Business Intelligence** na Politechnice Gdańskiej.
