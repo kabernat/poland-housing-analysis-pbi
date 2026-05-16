@@ -8,20 +8,6 @@
 
 ---
 
-## 📌 Spis Treści
-
-- [Cel Projektu](#-cel-projektu)
-- [Kluczowe Wnioski](#-kluczowe-wnioski)
-- [Przegląd Raportu](#-przegląd-raportu)
-- [Proces ETL](#-proces-etl-extract-transform-load)
-- [Kolumna Kalkulowana](#-kolumna-kalkulowana-dax)
-- [Stack Techniczny](#️-stack-techniczny)
-- [Struktura Plików](#-struktura-plików)
-- [Źródło Danych](#-źródło-danych)
-- [Autorzy](#-autorzy)
-
----
-
 ## 🎯 Cel Projektu
 
 Przekształcenie surowego pliku CSV z ogłoszeniami mieszkań w narzędzie analityczne, które odpowiada na dwa pytania:
@@ -149,24 +135,6 @@ Cena za m2 =
 | **Power Query / M** | ETL: czyszczenie, transformacja, modelowanie danych |
 | **DAX** | Kolumna kalkulowana (Cena za m2) |
 | **Bing Maps** | Wizualizacje przestrzenne (mapa punktowa + choropleth) |
-
----
-
-## 📂 Struktura Plików
-
-```
-📁 poland-housing-analysis-pbi/
-├── 📄 README.md
-├── 📁 data/
-│   └── apartments_pl_2023_08.csv
-├── 📁 reports/
-│   └── poland-housing-market-analysis.pbix
-└── 📁 screenshots/
-    ├── 02-market-overview-all.png
-    ├── 02-market-overview-filtered.png
-    ├── 03-property-search-raw.png
-    └── 03-property-search-filtered.png
-```
 
 ---
 
